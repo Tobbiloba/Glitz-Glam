@@ -11,6 +11,9 @@
   background-color: rgb(250, 207, 232);
   padding: 0 1.25rem;
   padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homepage__left-container h1 {
   color: white;
@@ -38,7 +41,10 @@
   border: none;
   background: #c93084;
 }
-
+.homepage__left-container img {
+  width: 350px;
+  height: 500px;
+}
 .homepage__right-container {
   /* background-color: rgb(228, 128, 34); */
   overflow: hidden;
@@ -75,6 +81,7 @@
   display: flex;
   align-items: center;
   min-height: 75vh;
+  flex-direction: column;
 }
 .slider:nth-child(3) {
   background-image: url(https://cdn.dribbble.com/userupload/3678392/file/original-6ebe531e476e9738eff6fb1b221a3296.jpg?compress=1&resize=1200x900);

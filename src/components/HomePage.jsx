@@ -14,17 +14,7 @@ const HomePage = () => {
   return (
     <div className="homepage__container">
       <div className="homepage__left-container">
-        <h1>Lip Balm</h1>
-        <div className="homepage__left-price">
-          <h2>$29.00</h2>
-          <p>10 ml / 0.42 fl. oz</p>
-        </div>
-        <h3>
-          Protect your pout with our all-natural lip balm. <br />
-          A base of essential oils and and plant extracts soften <br />
-          the lips, leaving them supple and moisturized
-        </h3>
-        <button>Order Now</button>
+        <img src={logo} className="" />
       </div>
       <div className="homepage__right-container">
         <Swiper
@@ -42,7 +32,17 @@ const HomePage = () => {
           className="mySwiper"
         >
           <SwiperSlide className="slider">
-            <img src={logo} className="homepage__right-slider" />
+            <h1>Lip Balm</h1>
+            <div className="homepage__left-price">
+              <h2>$29.00</h2>
+              <p>10 ml / 0.42 fl. oz</p>
+            </div>
+            <h3>
+              Protect your pout with our all-natural lip balm. <br />
+              A base of essential oils and and plant extracts soften <br />
+              the lips, leaving them supple and moisturized
+            </h3>
+            <button>Order Now</button>
           </SwiperSlide>
           <SwiperSlide className="slider"></SwiperSlide>
           <SwiperSlide className="slider">
