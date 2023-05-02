@@ -8,7 +8,7 @@
 }
 .homepage__left-container {
   min-height: 75vh;
-  background-color: rgb(219, 162, 109);
+  background-color: rgb(250, 207, 232);
   padding: 0 1.25rem;
   padding-top: 3rem;
 }
@@ -36,7 +36,7 @@
   padding: 1rem 3rem;
   border-radius: 3rem;
   border: none;
-  background: #ac590c;
+  background: #c93084;
 }
 
 .homepage__right-container {
@@ -71,7 +71,7 @@
 }
 .slider:first-child {
   /* border: 1px solid blue;8 */
-  background: #ac590c;
+  background: #da4760;
   display: flex;
   align-items: center;
   min-height: 75vh;
