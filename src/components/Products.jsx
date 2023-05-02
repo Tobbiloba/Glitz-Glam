@@ -48,7 +48,7 @@ const Products = () => {
           <li>
             <a href="https://wa.link/gyc4rg">
               <img src={product5} alt="Product 5" />
-              <p>LipsGloss</p>
+              <p>LipGloss</p>
             </a>
           </li>
           <li>
