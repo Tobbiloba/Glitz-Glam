@@ -24,7 +24,7 @@ const HomePage = () => {
       <div className="homepage__left-container">
         <img src={logo} className="" />
       </div>
-      <div className="homepage__right-container">
+      {/* <div className="homepage__right-container">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -60,7 +60,7 @@ const HomePage = () => {
             />
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
 
       <div>
         <section className="hero-image">
