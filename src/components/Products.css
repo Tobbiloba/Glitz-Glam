@@ -1,0 +1,36 @@
+.products h3 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.products ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.products li {
+  margin: 20px;
+}
+
+.products img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.products img:hover {
+  transform: scale(1.1);
+}

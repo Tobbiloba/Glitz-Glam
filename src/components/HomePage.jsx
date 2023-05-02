@@ -1,22 +1,30 @@
-import './HomePage.css'
-
+import React from 'react'
+// import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, Pagination, Navigation } from 'swiper'
 
 // Import Swiper styles
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 
-import { Autoplay, Pagination, Navigation } from 'swiper'
-
 import logo from '../assets/logo-bg.png'
+
+import './HomePage.css'
+
 const HomePage = () => {
+  const navigate = useNavigate()
+
+  function handleClick() {
+    navigate('/another-page')
+  }
   return (
     <div className="homepage__container">
       <div className="homepage__left-container">
         <img src={logo} className="" />
       </div>
-      {/* <div className="homepage__right-container">
+      <div className="homepage__right-container">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -52,7 +60,24 @@ const HomePage = () => {
             />
           </SwiperSlide>
         </Swiper>
-      </div> */}
+      </div>
+
+      <div>
+        <section className="hero-image">
+          <h2>Welcome to Glitz&Glam Accessories</h2>
+          <p>
+            We offer a range of lip care products that will help you achieve the
+            perfect pink lips.
+          </p>
+          <a href="#" className="cta-button" onClick={handleClick}>
+            Shop Now
+          </a>
+        </section>
+
+        <footer>
+          <p>Copyright © 2023 Pink Lips Brand. All rights reserved.</p>
+        </footer>
+      </div>
     </div>
   )
 }
