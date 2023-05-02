@@ -2,6 +2,10 @@ import { useState } from 'react'
 import './App.css'
 
 import HomePage from './components/HomePage'
+import product1 from './assets/product1.jpg'
+import product2 from './assets/product2.jpg'
+import product3 from './assets/product3.jpg'
+import product4 from './assets/product4.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,34 +38,22 @@ function App() {
           <ul>
             <li>
               <a href="https://wa.link/gyc4rg">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
-                  alt="Product 1"
-                />
+                <img src={product2} alt="Product 1" />
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
-                  alt="Product 2"
-                />
+                <img src={product1} alt="Product 2" />
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
-                  alt="Product 3"
-                />
+                <img src={product3} alt="Product 3" />
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
-                <img
-                  src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
-                  alt="Product 4"
-                />
+                <img src={product4} alt="Product 4" />
               </a>
             </li>
           </ul>
