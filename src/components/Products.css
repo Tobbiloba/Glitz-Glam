@@ -6,7 +6,19 @@
 }
 
 .products p {
-  font-size: 24px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-us h3 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-size: 18px;
   text-align: center;
   margin-bottom: 30px;
 }
