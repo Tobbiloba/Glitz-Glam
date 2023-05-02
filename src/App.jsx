@@ -6,6 +6,7 @@ import product1 from './assets/product1.jpg'
 import product2 from './assets/product2.jpg'
 import product3 from './assets/product3.jpg'
 import product4 from './assets/product4.jpg'
+import product5 from './assets/product5.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,21 +40,31 @@ function App() {
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product2} alt="Product 1" />
+                <p>Pink Lips Mask</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product1} alt="Product 2" />
+                <p>Pink Lips Scrub</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product3} alt="Product 3" />
+                <p>Pink Lips Kit</p>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.link/gyc4rg">
+                <img src={product5} alt="Product 5" />
+                <p>Pink Lips Gloss</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product4} alt="Product 4" />
+                <p>Pink Eye Lashes</p>
               </a>
             </li>
           </ul>
