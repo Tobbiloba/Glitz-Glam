@@ -33,7 +33,7 @@ function App() {
           <p>Take a look at our range of lip care products:</p>
           <ul>
             <li>
-              <a href="#">
+              <a href="https://wa.link/gyc4rg">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
                   alt="Product 1"
@@ -41,7 +41,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wa.link/gyc4rg">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
                   alt="Product 2"
@@ -49,7 +49,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wa.link/gyc4rg">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
                   alt="Product 3"
@@ -57,7 +57,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wa.link/gyc4rg">
                 <img
                   src="https://cdn.shopify.com/s/files/1/0038/4886/3793/products/Ethique-Lip-Balm-EBJUI-Juicy-Pink-grapefruit-_-vanilla-lip-balm_4359864b-d6e2-4502-a861-b08cf01c1a36.jpg?v=1674614536"
                   alt="Product 4"
