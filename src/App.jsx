@@ -15,7 +15,7 @@ function App() {
       <HomePage />
       <div>
         <section className="hero-image">
-          <h2>Welcome to Glitz&Glam Pink Lips Brand</h2>
+          <h2>Welcome to Glitz&Glam Pink Lips Accessories</h2>
           <p>
             We offer a range of lip care products that will help you achieve the
             perfect pink lips.
