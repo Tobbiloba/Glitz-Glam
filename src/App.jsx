@@ -40,31 +40,31 @@ function App() {
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product2} alt="Product 1" />
-                <p>Pink Lips Mask</p>
+                <p>Lips Mask</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product1} alt="Product 2" />
-                <p>Pink Lips Scrub</p>
+                <p>Lips Scrub</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product3} alt="Product 3" />
-                <p>Pink Lips Kit</p>
+                <p>Mini Pink Lips Kit</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product5} alt="Product 5" />
-                <p>Pink Lips Gloss</p>
+                <p>Lips Gloss</p>
               </a>
             </li>
             <li>
               <a href="https://wa.link/gyc4rg">
                 <img src={product4} alt="Product 4" />
-                <p>Pink Eye Lashes</p>
+                <p>Mink Eye Lashes</p>
               </a>
             </li>
           </ul>

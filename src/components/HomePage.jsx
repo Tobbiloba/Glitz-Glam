@@ -44,7 +44,7 @@ const HomePage = () => {
             </h3>
             <button>Order Now</button>
           </SwiperSlide>
-          <SwiperSlide className="slider"></SwiperSlide>
+          {/* <SwiperSlide className="slider"></SwiperSlide> */}
           <SwiperSlide className="slider">
             <img
               src="https://cdn.dribbble.com/userupload/3678392/file/original-6ebe531e476e9738eff6fb1b221a3296.jpg?compress=1&resize=1200x900"
