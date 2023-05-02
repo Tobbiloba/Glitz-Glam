@@ -119,11 +119,18 @@
   .homepage__left-container {
     width: 50vw;
     /* min-height: 100vh; */
+    height: 100vh;
   }
   .homepage__right-container {
     width: 50vw;
     /* min-height: 100vh; */
     height: fit-content;
+    height: 100vh;
+    /* border: 1px solid red; */
+  }
+  .hero-image {
+    height: 70vh;
+    /* border: 1px solid red; */
   }
   .slider:first-child {
     /* border: 1px solid blue;8 */
@@ -152,14 +159,14 @@
 }
 
 .hero-image h2 {
-  font-size: 60px;
+  font-size: 52px;
   font-weight: bold;
   color: #f9d9eb;
   margin-bottom: 20px;
 }
 
 .hero-image p {
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
   margin-bottom: 30px;
 }
@@ -184,7 +191,7 @@
 }
 
 .contact-us h3 {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;

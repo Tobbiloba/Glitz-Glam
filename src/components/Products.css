@@ -6,7 +6,7 @@
 }
 
 .products p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -32,6 +32,12 @@
 
 .products li {
   margin: 20px;
+  /* border: 1px solid red; */
+}
+.products li p {
+  /* border: 1px solid red; */
+  color: black;
+  font-size: 16px;
 }
 
 .products img {

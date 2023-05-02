@@ -62,7 +62,7 @@ const HomePage = () => {
         </Swiper>
       </div> */}
 
-      <div>
+      <div className="homepage__right-container">
         <section className="hero-image">
           <h2>Welcome to Glitz&Glam Accessories</h2>
           <p>
