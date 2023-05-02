@@ -66,7 +66,7 @@ function App() {
             </li>
           </ul>
         </section>
-        <section className="contact-us">
+        {/* <section className="contact-us">
           <h3>Contact Us</h3>
           <form>
             <label htmlFor="name">Name:</label>
@@ -77,7 +77,7 @@ function App() {
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send</button>
           </form>
-        </section>
+        </section> */}
         <footer>
           <p>Copyright © 2023 Pink Lips Brand. All rights reserved.</p>
         </footer>
